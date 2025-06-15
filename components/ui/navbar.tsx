@@ -19,13 +19,13 @@ export default function Navbar() {
           {lightMode ? <MdDarkMode size={25} /> : <MdLightMode size={25} />}
         </div>
         <div className="flex items-center">
-          <div onClick={() => router.push("/resume")} className={`cursor-pointer py-2 px-4 rounded-xl text-md`}>
+          <div onClick={() => router.push("/resume")} className={`cursor-pointer py-2 px-4 rounded-xl text-md transform transition ease-in-out duration-200 hover:text-[#ff6f00]`}>
             Resume
           </div>
-          <div className={`cursor-pointer text-md py-2 px-3 rounded-lg`}>
+          <div className={`cursor-pointer text-md py-2 px-3 rounded-lg transform transition ease-in-out duration-200 hover:text-[#ff6f00]`}>
             About
           </div>
-          <div onClick={() => router.push("/#contact")} className="cursor-pointer text-md py-2 px-3 rounded-lg">
+          <div onClick={() => router.push("/#contact")} className="cursor-pointer text-md py-2 px-3 rounded-lg transform transition ease-in-out duration-200 hover:text-[#ff6f00]">
             Contact
           </div>
         </div>

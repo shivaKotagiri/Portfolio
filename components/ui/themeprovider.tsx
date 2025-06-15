@@ -2,7 +2,7 @@
 import { useState, createContext, useContext, useEffect } from "react";
 
 const ThemeContext = createContext({
-  lightMode: true,
+  lightMode: false,
   toggleLightMode: () => {},
 });
 
@@ -13,7 +13,7 @@ export default function ThemeProvider({
 }: {
   children: React.ReactNode;
 }) {
-  const [lightMode, setLightMode] = useState(true);
+  const [lightMode, setLightMode] = useState(false);
 
   const toggleLightMode = () => setLightMode((prev) => !prev);
 
