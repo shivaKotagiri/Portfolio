@@ -51,7 +51,7 @@ export default function ProjectCard({info}:Props) {
           })}
         </div>
 
-        <div className="flex text-sm justify-end pt-3">
+        <div className="flex text-sm justify-end pt-5">
           <Link href={info.viewProject} className="px-6 cursor-pointer bg-black text-white py-3 rounded-full font-medium transition-colors flex items-center gap-2">
             View Project
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

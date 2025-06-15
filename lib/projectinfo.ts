@@ -3,7 +3,7 @@ const info = {
     {
       name: "PROJECT 01",
       image:"project1.jpg",
-      title: "The Chronicle - A online Blog platform",
+      title: "Chronicle - A Blog platform",
       skills: ["TypeScript", "ReactJS", "HonoJS", "TailwindCSS", "PostgreSQL", "Prisma"],
       live: "https://the-chronicle-pi.vercel.app",
       viewProject: "https://github.com/shivaKotagiri/The-Chronicle"

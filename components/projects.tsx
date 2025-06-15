@@ -82,12 +82,12 @@ export default function() {
         </div>
       </div>
       <div className="flex-col items-center justify-center">
-        <ProjectCard info = {info.project[0]} />
+        <ProjectCard info = {info.project[2]} />
         <div className=" grid lg:max-w-[87%] mx-auto grid-cols-1 lg:grid-cols-2 lg:gap-5 py-10">
-          <div className="py-10 lg:py-0"><ProjectCard info = {info.project[3]} /></div>
-          <div><ProjectCard info = {info.project[2]} /></div>
+          <div className="py-10 lg:py-0"><ProjectCard info = {info.project[0]} /></div>
+          <div><ProjectCard info = {info.project[1]} /></div>
         </div>
-        <ProjectCard info = {info.project[1]} />
+        <ProjectCard info = {info.project[3]} />
       </div>
     </div>
   )
