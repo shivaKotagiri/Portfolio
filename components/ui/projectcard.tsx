@@ -17,7 +17,7 @@ export default function ProjectCard({info}:Props) {
   return (
     <div className="rounded-lg  border overflow-hidden shadow-lg max-w-6xl mx-auto">
       <div className="relative min-h-[20px]">
-        <div className="flex justify-center items-center h-full">
+        <div className="flex justify-center items-center h-full border-b">
           <Image
             src={`/assets/${info.image}`}
             alt="Talent Linker Dashboard"
