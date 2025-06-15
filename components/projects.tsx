@@ -67,19 +67,10 @@ export default function() {
   }, []);
   return (
     <div className="min-h-screen lg:-translate-y-20">
-      <div className="pb-20">
-          <h1 ref={bigMyRef} className="text-6xl sm:text-8xl md:text-9xl lg:text-9xl xl:text-[12rem] font-extrabold leading-none mt-8 sm:mt-12 md:mt-16 lg:mt-20 select-none">
-          My
+      <div className="pb-10">
+          <h1 ref={bigMyRef} className="text-5xl text-center sm:text-6xl md:text-7xl lg:text-8xl xl:text-[10rem] font-extrabold leading-none mt-8 sm:mt-12 md:mt-16 lg:mt-20 select-none">
+          Featured Work
         </h1>
-
-        <div ref={projectsRef} className="flex flex-row flex-wrap items-center justify-center sm:justify-start gap-4 sm:gap-6 md:gap-8 pt-6 sm:pt-8 md:pt-10">
-          <span className="hidden md:block text-7xl sm:text-8xl md:text-[6rem] lg:text-[8rem] xl:text-[10rem] font-extrabold leading-none">
-            <FaStarOfLife />
-          </span>
-          <h2 className="text-7xl sm:text-8xl md:text-[7rem] lg:text-[8rem] xl:text-[11rem] font-extrabold leading-none text-center">
-            PROJECTS
-          </h2>
-        </div>
       </div>
       <div className="flex-col items-center justify-center">
         <ProjectCard info = {info.project[2]} />
