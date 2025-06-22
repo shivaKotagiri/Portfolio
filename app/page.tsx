@@ -8,12 +8,14 @@ import ScrollToHash from "../components/ui/scrollview";
 export default function Home() {
 
   return (
-    <div className='px-10 lg:px-15 xl:px-25 overflow-hidden'>
-      <ScrollToHash />
-      <div id="home"><Hero /></div>
-      <div><About /></div>
-      <div><Projects /></div>
-      <div id="contact"><Last /></div>
+    <div>
+      <div className='px-10 lg:px-15 xl:px-25 overflow-hidden'>
+        <ScrollToHash />
+        <div id="home"><Hero /></div>
+        <div><About /></div>
+        <div><Projects /></div>
+        <div id="contact"><Last /></div>
+      </div>
       <div className="py-5">
         <Footer />
       </div>
