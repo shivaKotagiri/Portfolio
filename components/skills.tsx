@@ -24,7 +24,7 @@ const Skills = () => {
 
   return (
     <section className="flex-col flex-wrap items-center px-2">
-      <div className="flex font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl pb-12 sm:pb-15 lg:pb-25">
+      <div className="flex font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl pb-5 sm:pb-15 lg:pb-25">
         with my Skills in
       </div>
       <div className="lg:-translate-x-20">

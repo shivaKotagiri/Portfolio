@@ -14,9 +14,9 @@ export default function Home() {
         <div id="home"><Hero /></div>
         <div><About /></div>
         <div><Projects /></div>
-        <div id="contact"><Last /></div>
+        <div><Last /></div>
       </div>
-      <div className="py-5">
+      <div id="contact" className="py-5">
         <Footer />
       </div>
     </div>

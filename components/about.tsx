@@ -103,23 +103,14 @@ export default function Projects() {
   }, []);
 
   return (
-    <section
-      ref={sectionRef}
-      className="flex lg:-translate-y-10 flex-col justify-around items-start min-h-screen w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 overflow-hidden"
-    >
+    <section ref={sectionRef} className="flex lg:-translate-y-10 flex-col justify-around items-start min-h-screen w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 overflow-hidden">
       <div>
-        <div
-          ref={headingRef}
-          className="text-start font-bold text-3xl md:text-4xl lg:text-5xl"
-        >
+        <div ref={headingRef} className="text-start font-bold text-3xl md:text-4xl lg:text-5xl">
           About
         </div>
 
         <div className="pt-3 lg:flex flex-col lg:flex-row lg:justify-between lg:items-start w-full gap-6 lg:gap-8">
-          <div
-            ref={descRef}
-            className="text-3xl lg:text-4xl lg:max-w-4xl text-justify lg:text-left order-2 lg:order-1"
-          >
+          <div ref={descRef} className="text-3xl lg:text-4xl lg:max-w-4xl text-justify lg:text-left order-2 lg:order-1">
             {words.map((word, index) => (
               <span key={index} className="inline-block">
                 {word}&nbsp;
@@ -127,18 +118,8 @@ export default function Projects() {
             ))}
           </div>
 
-          <div
-            ref={codeIconRef}
-            style={{
-              perspective: "1000px",
-              transformStyle: "preserve-3d",
-            }}
-            className="flex pb-10 justify-center lg:justify-end w-full lg:w-auto order-1 lg:order-2 lg:mr-[10%] xl:mr-[8%]"
-          >
-            <FaCode
-              size={200}
-              className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl translate-y-5 lg:-translate-y-8"
-            />
+          <div ref={codeIconRef} style={{ perspective: "1000px", transformStyle: "preserve-3d"}} className="flex pb-10 justify-center lg:justify-end w-full lg:w-auto order-1 lg:order-2 lg:mr-[10%] xl:mr-[8%]">
+            <FaCode size={200} className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl translate-y-5 lg:-translate-y-8"/>
           </div>
         </div>
       </div>

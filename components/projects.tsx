@@ -67,8 +67,8 @@ export default function() {
   }, []);
   return (
     <div className="min-h-screen lg:-translate-y-20">
-      <div className="pb-10">
-          <h1 ref={bigMyRef} className="text-[45px] text-center sm:text-6xl md:text-7xl lg:text-8xl xl:text-[10rem] font-extrabold leading-none mt-8 sm:mt-12 md:mt-16 lg:mt-20 select-none">
+      <div className="pb-5">
+          <h1 ref={bigMyRef} className="text-[40px] text-center sm:text-6xl md:text-7xl lg:text-8xl xl:text-[10rem] font-extrabold leading-none mt-8 sm:mt-12 md:mt-16 lg:mt-20 select-none">
           Featured Work
         </h1>
       </div>
