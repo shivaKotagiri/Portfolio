@@ -7,8 +7,8 @@ export default function() {
   return (
     <div className="flex px-7 md:px-10 lg:px-15 xl:px-25 justify-between w-full text-xs md:text-sm">
       <div className="font-semibold flex flex-col">
-        <small>Design & Developed by</small>
-        <small>ShivaKumarKotagiri</small>
+        <small>Design & Developed</small>
+        <small>Shiva Kumar Kotagiri</small>
       </div>
       <div className="flex justify-center items-center px-2">
         <div className="flex justify-center text-center font-semibold text-xs gap-2 sm:gap-3 sm:text-base  md:gap-10">
