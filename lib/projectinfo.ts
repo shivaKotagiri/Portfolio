@@ -20,7 +20,7 @@ const info = {
       name: "PROJECT 03",
       image:"project3.png",
       title: "PayTm(V1) - Payment Processing Platform",
-      skills: ["JavaScript", "ReactJS","NodeJS","ExpressJS","MongoDB","TailwindCSS", "JWT Authentication"],
+      skills: ["JavaScript", "ReactJS","NodeJS","ExpressJS","MongoDB","TailwindCSS"],
       live: "https://pay-tm-nine.vercel.app",
       viewProject: "https://github.com/shivaKotagiri/PayTm"
     },

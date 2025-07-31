@@ -1,11 +1,12 @@
 
 import Link from "next/link";
 import Backtotop from "./backtotop";
+import Particles from "./ui/particles";
 
 export default function() {
 
   return (
-    <div className="flex px-7 md:px-10 lg:px-15 xl:px-25 justify-between w-full text-xs md:text-sm">
+    <div className="xl:-translate-y-5 flex px-7 md:px-10 lg:px-15 xl:px-25 justify-between w-full text-xs md:text-sm">
       <div className="font-semibold flex flex-col">
         <small>Design & Developed</small>
         <small>Shiva Kumar Kotagiri</small>

@@ -24,10 +24,10 @@ const Skills = () => {
 
   return (
     <section className="flex-col flex-wrap items-center px-2">
-      <div className="flex font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl pb-5 sm:pb-15 lg:pb-25">
+      <div className="flex font-bold text-2xl md:text-3xl lg:text-3xl xl:text-4xl pb-5 sm:pb-15 lg:pb-25">
         with my Skills in
       </div>
-      <div className="lg:-translate-x-20">
+      <div className="lg:-translate-x-10">
         <div className="flex justify-center flex-wrap lg:flex-nowrap gap-1 lg:gap-0">
           {skills.map((skill, index) => (
             <div key={index} className={`flex p-3 lg:p-5 mx-0.5 rounded-full text-xl lg:text-3xl font-bold text-center items-center justify-center whitespace-nowrap ${skill.styles}`}>
